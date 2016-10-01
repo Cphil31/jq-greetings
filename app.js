@@ -1,17 +1,20 @@
 
 $("button").click (function(){
-//recuperer la valeur des champs
 var space={
-	//selectionner un champ
+//recuperer la valeur des champs
 	prenom : $("#first_name").val(),
 	nom : $("#last_name").val(),
 	city : $("#city").val(),
+	de : $("#de").val(),
 }
 
-$("#username").text(space.prenom + " " + space.nom);
+//selectionner un champ
+
+$("#username").text(space.prenom + " " + space.nom+ " " + "de" + " " + space.city);
 
 
-console.log(space)
+console.log(ok
+)
 
 
 });
